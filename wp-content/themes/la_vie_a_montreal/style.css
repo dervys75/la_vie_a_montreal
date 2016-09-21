@@ -54,6 +54,7 @@ html {
 
 body {
 	margin: 0;
+	background-color: black;
 }
 
 article,
@@ -891,4 +892,55 @@ object {
 
 .gallery-caption {
 	display: block;
+}
+
+div#primary-menu ul{
+	background-color:#0E83CD;
+	position: relative;
+	overflow:hidden;
+}
+
+div#primary-menu li a {
+	color:#fff;
+	text-decoration:none;
+	padding:20px;
+	font-family: 'Bookman Old Style', serif;
+	font-size:20px;
+	border-radius:3px;
+	font-weight:bold;
+	text-shadow:1px 1px 1px #000;
+	opacity: 0.7;
+	-moz-opacity: 0.7;
+	filter:alpha(opacity=7);
+}
+div#primary-menu a:hover {
+	text-decoration:underline;
+	background-color: #9FD0D5;
+	box-shadow:1px 1px 0px #000;
+}
+
+div#content {
+	background-color: #5A5A5A;
+	margin: 10% auto;
+	width: 80%;
+	text-align: center;
+
+}
+h1.site-title a{
+	color: #0A246A;
+	text-align: center;
+
+}
+
+article {
+	margin-top: 5%;
+	display: inline-block;
+	background-color: #9FD0D5;
+	width: 30%;
+	height:20%;
+	color: #0A246A;
+	border: 3px #0E83CD solid;
+	padding: 20px;
+	box-sizing: border-box;
+	vertical-align: text-top;
 }
