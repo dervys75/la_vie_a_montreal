@@ -16,8 +16,8 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'la_vie_a_montreal' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'la_vie_a_montreal' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'la_vie_a_montreal' ), 'la_vie_a_montreal', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
+			<span class="sep">  </span>
+			<p><?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'la_vie_a_montreal' ), 'la_vie_a_montreal', '</p><a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
